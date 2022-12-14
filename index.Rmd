@@ -1,22 +1,32 @@
 ---
-title: "Welcome to my personal website!"
+title: "Welcome all!"
 output:
   html_document:
     includes:
-      in_header: cover.html
-      css: float.css
+      in_header: cover.html # foto de portada que s'ha de posar un fitxer jpeg a la carpeta 
+      css: float.css 
 ---
 
-Hello!
-
-My name is Irene and I am a PhD candidate in the Department of Political and Social Sciences at [Pompeu Fabra University](https://www.upf.edu/web/2019-2020/deppol), working on the VolkswagenStiftung COVIDEU Project.
-
-I hold a BA in Political Science and Public Administration by the University of Girona (UdG), an MA in Political Analysis and Institutional Assessment by the University of Barcelona (UB) and a postgraduate degree in Data Analysis also by the UB. My research interests include political behavior and attitudes, far-right politics and quantitative methods.
-
-At the [COVIDEU Project](https://www.covideu.info), along with my colleagues, we investigate the effect of the coronavirus pandemic on public support for the European Integration and public attitudes towards the EU.
-
-My [doctoral thesis](thesis.html) focuses specifically on COVID-19 pandemic effects on citizens' political attitudes and electoral behavior in the aftermath of the pandemic.
+<p align="justify">
+I'm Bernat Puertas, a PhD candidate in the Department of Political and Social Sciences at [Universitat Pompeu Fabra de Barcelona](https://www.upf.edu/web/politiques/). Currently, I'm a teaching assistant at Institut Barcelona d'Estudis Internacionals ([IBEI](https://www.ibei.org/en)) of the course [Comparative Politics and Democratization](https://www.ibei.org/en/comparative-politics-and-democratization_24324?study=24721) of the [MA in International Relations.](https://www.ibei.org/en/master-international-relations) 
+</p>
+<p align="justify">
+The title of my [PhD project](thesis.html) is “Pathways to Personalism in Autocratic Regimes: Domestic and Foreign Factors”. It focuses on the domestic and foreign factors that can make personalism rise in dictatorships. My lines of research are comparative politics, comparative political economy, autocratic politics, democratization and quantitative methods. I'm also interested in Political Theory and Discourse Analysis. 
+</p>
+<p align="justify">
+I hold a BA in Political and Administration Sciences (2020) and an MA in Current Democracies: Nationalism, Federalism and Multiculturalism (2021), both from Universitat Pompeu Fabra. 
+</p>
+<p align="justify">
+In my spare time, I work as a basketball coach and I enjoy playing the guitar and mountaineering. 
+</p>
+<p align="justify">
+Check my [ORCID](https://orcid.org/0000-0003-0024-4788) 
+</p>
+```{r eval=FALSE, include=FALSE}
+#and google scholar# 
+```
 
 ```{r me, echo=FALSE, fig.align='center', fig.dim=c(4,2), out.width = "50%"}
-knitr::include_graphics("000031.JPG")
+knitr::include_graphics("Foto_Perfil.jpeg")
 ```
+

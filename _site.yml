@@ -1,41 +1,42 @@
-name: "Irene Rodríguez"                                # CHANGE HERE 
+name: "Bernat Puertas"                                  
 output_dir: "docs"
 navbar:
-  title: "Irene Rodríguez"                             # CHANGE HERE 
+  title: "Bernat Puertas"                              
   type: inverse
   left:
-    - text: "Home"
+    - text: "About"
       icon: fa-home
       href: index.html
     - text: "My thesis"
       icon: fa-pencil
       href: thesis.html
-    - text: "Working papers"
+    - text: "Research"
       icon: fa-archive fa
-      href: papers.html
+      href: research.html
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html # CHANGE HERE OR DELETE ALL 3 LINES 
-    - text: "Contact"
-      icon: fa-envelope fa
-      href: contact.html
+    #- text: "Contact"
+      #icon: fa-envelope fa
+      #href: contact.html
   right:
     - text: ""
       icon: fa-envelope-o fa
-      href: mailto:irene.rodriguez@upf.edu     
-    - text: ""
-      icon: fa-archive fa
-      href: https://scholar.google.com/citations?user=c-iA5moAAAAJ&hl=es&oi=ao # CHANGE HERE 
+      href: mailto:bernat.puertas@upf.edu     
+  #  - text: ""
+  #   icon: google scholar
+  #   href: 
     - text: ""
       icon: fa-github fa
-      href: https://github.com/irenerodriguezlopez 
+      href: https://github.com/BPS8
     - text: ""
       icon: fa-twitter fa
-      href: https://twitter.com/irewrl
+      href: https://twitter.com/bernat_puertas
       # CHANGE HERE 
 output:
   html_document:
-    theme: bootstrap
-    highlight: tango
+    theme: readable 
+    highlight: monochrome
     lib_dir: site_libs
     self_contained: no
+    

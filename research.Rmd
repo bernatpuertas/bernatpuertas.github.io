@@ -1,0 +1,21 @@
+---
+title: ""
+output:
+  html_document:
+    includes:
+      in_header: cover.html # foto de portada
+---
+
+# Research in progress 
+
+### Personalism and International Conflict: How Dictators Fight to Concentrate Power. 
+
+<p align="justify">
+What is the effect of international conflict on the degree of personalism? We know that personalist rulers in dictatorships are more likely to engage and initiate conflicts, yet we do not know if this has further implications: if conflict helps dictators to accumulate more power. This paper aims to fill this gap in the literature, both theoretically and empirically. I argue that dictators use conflict to increase their levels of personalism: the explanation can be found in the struggles over power of dictators vis-à-vis the elites, this is, in the domestic political environment. When dictators engage in international conflicts, they fight to personalise. Thus, international conflict is understood as a coup-proofing strategy and is a solution to the guardianship dilemma. I test the arguments by conducting a synthetic control method using novel data on personalism (which is understood as a latent dimension of autocratic rule), of a sample of dictatorships in the period 1946-2010. 
+</p>
+
+### Rewards and Punishments in Autocratic Regimes: The Effect of Foreign Aid and Foreign Direct Investment on Personalism
+
+<p align="justify">
+Unearned incomes and non-tax revenues have been linked to personalist rule in autocracies. Dependence on natural resources and foreign aid have negative effects on democratic levels. Furthermore, Foreign Direct Investment (FDI) have a stabilising effect on autocratic rule. Natural resources, foreign aid and FDI share many similarities, but it has only been demonstrated that oil resources increase the degree of personalism in dictatorships. Thus, this paper addresses this puzzle and asks: what is the effect of foreign aid and FDI on the degree of personalism? Following a logic of rewards and punishment, I argue that dictators can allocate resources coming from aid in order to co-opt individuals and, thus, personalise. I also argue that dictators influence targets of FDI in order to reward and punish members of the elite and, thus, personalise. I test these arguments by conducting Instrumental Variables Estimation using new data on personalism (which is understood as a latent dimension of autocratic rule), of a sample of dictatorships between 1960 and 2010. 
+</p>
