@@ -8,7 +8,7 @@ output:
 ---
 
 <p align="justify">
-I'm Bernat Puertas, a PhD candidate in the Department of Political and Social Sciences at [Universitat Pompeu Fabra de Barcelona](https://www.upf.edu/web/politiques/). Currently, I'm a teaching assistant at Institut Barcelona d'Estudis Internacionals ([IBEI](https://www.ibei.org/en)) of the course [Comparative Politics and Democratization](https://www.ibei.org/en/comparative-politics-and-democratization_24324?study=24721) of the [MA in International Relations.](https://www.ibei.org/en/master-international-relations) 
+I'm Bernat Puertas, a PhD candidate in the Department of Political and Social Sciences at [Universitat Pompeu Fabra de Barcelona (UPF)](https://www.upf.edu/web/politiques/). I'm a teaching assistant at Institut Barcelona d'Estudis Internacionals ([IBEI](https://www.ibei.org/en)) and member of the [Institutions and Political Actors Research Group](https://www.upf.edu/web/institucions-i-actors-politics) at UPF.    
 </p>
 <p align="justify">
 The title of my [PhD project](thesis.html) is “Pathways to Personalism in Autocratic Regimes: Domestic and Foreign Factors”. It focuses on the domestic and foreign factors that can make personalism rise in dictatorships. My lines of research are comparative politics, comparative political economy, autocratic politics, democratization and quantitative methods. I'm also interested in Political Theory and Discourse Analysis. 
