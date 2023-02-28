@@ -1,5 +1,10 @@
 ---
-title: "Contact me"
----
+title: ""
+ in_header: contact.html # foto de portada
+
+
+
+
+You can email me at [email me](mailto:bernat.puertas@upf.edu) and you can find me in Universitat Pompeu Fabra, Campus de la Ciutadella, Office 20.135. 
 
 

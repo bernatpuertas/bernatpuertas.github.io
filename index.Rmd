@@ -1,5 +1,5 @@
 ---
-title: "Welcome all!"
+title: "Bernat Puertas"
 output:
   html_document:
     includes:
@@ -7,6 +7,9 @@ output:
       css: float.css 
 ---
 
+<p align="justify">
+Welcome all!
+</p>
 <p align="justify">
 I'm Bernat Puertas, a PhD candidate in the Department of Political and Social Sciences at [Universitat Pompeu Fabra de Barcelona (UPF)](https://www.upf.edu/web/politiques/). I'm a teaching assistant at Institut Barcelona d'Estudis Internacionals ([IBEI](https://www.ibei.org/en)) and member of the [Institutions and Political Actors Research Group](https://www.upf.edu/web/institucions-i-actors-politics) at UPF.    
 </p>
