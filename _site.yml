@@ -23,9 +23,9 @@ navbar:
     - text: ""
       icon: fa-envelope-o fa
       href: mailto:bernat.puertas@upf.edu     
-  #  - text: ""
-  #   icon: google scholar
-  #   href: 
+    - text: ""
+      icon: fa-archive fa
+      href: https://scholar.google.es/citations?user=0jGbQHkAAAAJ&hl=es&authuser=3
     - text: ""
       icon: fa-github fa
       href: https://github.com/BPS8
