@@ -3,7 +3,9 @@ title: "My Thesis"
 output:
   html_document:
     includes:
-      in_header: cover.html # foto de portada
+      in_header: cover.html # foto de portada que s'ha de posar un fitxer jpeg a la carpeta 
+      css: float.css 
+      site: _site.yml
 ---
 <p align="justify">
 ### Pathways to Personalism in Autocratic Regimes: Domestic and Foreign Factors.
