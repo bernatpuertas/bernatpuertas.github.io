@@ -3,7 +3,7 @@ title: "My Thesis"
 output:
   html_document:
     includes:
-      in_header: cover.html # foto de portada que s'ha de posar un fitxer jpeg a la carpeta 
+      in_header: thesis.html # foto de portada que s'ha de posar un fitxer jpeg a la carpeta 
 
 ---
 <p align="justify">
