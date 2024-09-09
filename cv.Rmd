@@ -4,8 +4,7 @@ output:
   html_document:
     includes:
       in_header: cover.html # foto de portada que s'ha de posar un fitxer jpeg a la carpeta 
-      css: float.css 
-      site: _site.yml
+     
 ---
 
 
