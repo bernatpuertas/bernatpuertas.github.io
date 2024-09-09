@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "My Thesis"
 output:
   html_document:
     includes:
