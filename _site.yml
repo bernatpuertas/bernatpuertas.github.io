@@ -16,9 +16,6 @@ navbar:
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html # CHANGE HERE OR DELETE ALL 3 LINES 
-    #- text: "Contact"
-      #icon: fa-envelope fa
-      #href: contact.html
   right:
     - text: ""
       icon: fa-envelope-o fa
@@ -39,4 +36,3 @@ output:
     highlight: tango
     lib_dir: site_libs
     self_contained: no
-    

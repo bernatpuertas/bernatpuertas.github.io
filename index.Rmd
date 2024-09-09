@@ -44,10 +44,6 @@ You can [email me](mailto:bernat.puertas@upf.edu) and you'll find me at Universi
 
 </p>
 
-```{r eval=FALSE, include=FALSE}
-#and google scholar# 
-```
-
 ```{r me, echo=FALSE, fig.align='center', fig.dim=c(4,2), out.width = "50%"}
 knitr::include_graphics("Foto_Perfil.jpeg")
 ```
