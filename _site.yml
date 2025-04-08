@@ -29,7 +29,10 @@ navbar:
     - text: ""
       icon: fa-twitter fa
       href: https://twitter.com/bernat_puertas
-      # CHANGE HERE 
+    - text: ""
+      icon: fa-brands fa-bluesky fa
+      href: https://bsky.app/profile/bernatpuertas.bsky.social
+    # CHANGE HERE 
 output:
   html_document:
     theme: bootstrap 
