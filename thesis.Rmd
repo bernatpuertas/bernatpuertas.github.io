@@ -9,17 +9,9 @@ output:
 <p align="justify">
 ### Pathways to Personalism in Autocratic Regimes: Domestic and Foreign Factors.
 </p>
+
 <p align="justify"> 
-"Pathways to Personalism" focuses on the concept of autocratic personalism, which is defined
-as the concentration of power of one man over the ruling elites. In this thesis, personalism is understood as a
-latent dimension of autocratic rule, following the theory of personalism developed by Barbara Geddes, Joseph Wright and Erica Frantz in their book [How Dictatorships Work](https://sites.psu.edu/dictators/how-dictatorships-work/). 
-The main research questions I ask in this project are: Which are the
-domestic and foreign factors that help dictators personalise? Under which conditions do dictators personalise?
-The main objective of this project is thus to understand and analyse how personalisation of power
-in autocratic regimes rises. Therefore, I analyse different domestic and foreign factors which can,
-potentially, help dictators personalise. These factors are: (1) foreign aid; (2) Foreign Direct Investment;
-(3) multiparty elections; (4) interstate wars; and (5) civil wars. Using panel data of all autocratic regimes
-in the period 1946-2010 and a variety of quantitative methods, I aim through three papers to give an answer to the questions.
+"Pathways to Personalism" focuses on the concept of autocratic personalism, which is defined as the concentration of power of one man over the ruling elites. In this thesis, personalism is understood as a latent dimension of autocratic rule, following the theory of personalism developed by Barbara Geddes, Joseph Wright and Erica Frantz in their book [How Dictatorships Work](https://sites.psu.edu/dictators/how-dictatorships-work/). The main research questions I ask in this project are: Which are the domestic and foreign factors that help dictators personalise? Under which conditions do dictators personalise? The main objective of this project is thus to understand and analyse how personalisation of power in autocratic regimes rises. Therefore, I analyse different domestic and foreign factors which can, potentially, help dictators personalise. These factors are: (1) foreign aid; (2) Foreign Direct Investment; (3) multiparty elections; (4) interstate wars; and (5) civil wars. Using panel data of all autocratic regimes in the period 1946-2010 and a variety of quantitative methods, I aim through three papers to give an answer to the questions.
 </p>
 
 <p align="justify">

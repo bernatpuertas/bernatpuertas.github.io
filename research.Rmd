@@ -10,6 +10,10 @@ output:
 ### Published
 
 <p align="justify">
+Rodon, Toni, Bernat Puertas, Avel·lí Flors-Mas, Núria Franco-Guillén and Sergi Morales-Gálvez. 2026. Could you please repeat it? The effect of language, and language variety on trust in multinational settings. *Electoral Studies, 99*. [https://doi.org/10.1016/j.electstud.2025.103030][DOI: https://doi.org/10.1016/j.electstud.2025.103030] [Replication materials](https://doi.org/10.34810/data2817)
+</p>
+
+<p align="justify">
 Puertas, Bernat and Abel Escribà-Folch. 2025. Foreign aid, FDI and the personalization of power in autocracies. *Political Science Research and Methods*. [doi:10.1017/psrm.2025.9](https://doi.org/10.1017/psrm.2025.9). [Replication materials](https://doi.org/10.7910/DVN/MNXYWI)
 </p>
 
@@ -25,13 +29,14 @@ Puertas, Bernat. The onset of civil armed conflicts and personalization of power
 </p>
 
 <p align="justify">
-Rodon, Toni, Bernat Puertas, Avel·lí Flors-Mas, Núria Franco-Guillén and Sergi Morales-Gálvez. Could you please repeat it? The effect of language, and language variety on trust in multinational settings.
+Puertas, Bernat. Personalism and International Conflict: How Dictators Fight to Concentrate Power. 
 </p>
+
 
 ### In progress 
 
 <p align="justify">
-Puertas, Bernat. Personalism and International Conflict: How Dictators Fight to Concentrate Power. 
+Puertas, Bernat. Ballots for the Boss: Multiparty Elections and Personalization of Power in Autocratic Regimes.
 </p>
 
 
