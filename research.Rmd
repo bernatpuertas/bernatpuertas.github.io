@@ -10,7 +10,7 @@ output:
 ### Published
 
 <p align="justify">
-Rodon, Toni, Bernat Puertas, Avel·lí Flors-Mas, Núria Franco-Guillén and Sergi Morales-Gálvez. 2026. Could you please repeat it? The effect of language, and language variety on trust in multinational settings. *Electoral Studies, 99*. [https://doi.org/10.1016/j.electstud.2025.103030][DOI: https://doi.org/10.1016/j.electstud.2025.103030] [Replication materials](https://doi.org/10.34810/data2817)
+Rodon, Toni, Bernat Puertas, Avel·lí Flors-Mas, Núria Franco-Guillén and Sergi Morales-Gálvez. 2026. Could you please repeat it? The effect of language, and language variety on trust in multinational settings. *Electoral Studies, 99*. [https://doi.org/10.1016/j.electstud.2025.103030][DOI: https://doi.org/10.1016/j.electstud.2025.103030] [Replication materials](https://doi.org/10.34810/data2818)
 </p>
 
 <p align="justify">
