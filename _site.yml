@@ -6,36 +6,45 @@ navbar:
   left:
     - text: "About"
       icon: fa-home
-      href: index.html
+      href: "#about"
     - text: "My thesis"
       icon: fa-pencil
-      href: thesis.html
+      href: "#thesis"
     - text: "Research"
-      icon: fa-archive fa
-      href: research.html
+      icon: fa-solid fa-book-open fa
+      href: "#research"
+    - text: "Teaching"
+      icon: fa-solid fa-chalkboard-user fa
+      href: "#teaching"
     - text: "CV"
       icon: fa-file-pdf-o
-      href: cv.html # CHANGE HERE OR DELETE ALL 3 LINES 
+      href: "#cv"
   right:
     - text: ""
       icon: fa-envelope-o fa
-      href: mailto:bernat.puertas@upf.edu     
+      href: mailto:bernat.puertas@upf.edu
     - text: ""
-      icon: fa-archive fa
+      icon: fa-brands fa-google-scholar fa
       href: https://scholar.google.es/citations?user=0jGbQHkAAAAJ&hl=es&authuser=3
+    - text: ""
+      icon: fa-brands fa-orcid fa
+      href: https://orcid.org/0000-0003-0024-4788
     - text: ""
       icon: fa-github fa
       href: https://github.com/BPS8
     - text: ""
-      icon: fa-twitter fa
-      href: https://twitter.com/bernat_puertas
-    - text: ""
       icon: fa-brands fa-bluesky fa
       href: https://bsky.app/profile/bernatpuertas.bsky.social
+    - text: ""
+      icon: fa-brands fa-x-twitter fa
+      href: https://twitter.com/bernat_puertas
     # CHANGE HERE 
 output:
   html_document:
-    theme: bootstrap 
-    highlight: tango
+    theme: flatly
+    highlight: kate
+    css: float.css
+    includes:
+      after_body: footer.html
     lib_dir: site_libs
     self_contained: no

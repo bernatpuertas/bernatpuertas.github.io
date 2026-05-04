@@ -1,44 +1,48 @@
 ---
-title: "Research"
+title: ""
 output:
   html_document:
     includes:
-      in_header: cover.html # foto de portada que s'ha de posar un fitxer jpeg a la carpeta 
+
 
 ---
 
-### Published
+<div class="page-section" id="research">
 
-<p align="justify">
-Rodon, Toni, Bernat Puertas, Avel·lí Flors-Mas, Núria Franco-Guillén and Sergi Morales-Gálvez. 2026. Could you please repeat it? The effect of language, and language variety on trust in multinational settings. *Electoral Studies, 99*. [https://doi.org/10.1016/j.electstud.2025.103030][DOI: https://doi.org/10.1016/j.electstud.2025.103030] [Replication materials](https://doi.org/10.34810/data2818)
-</p>
+### Peer-reviewed publications
 
-<p align="justify">
-Puertas, Bernat and Abel Escribà-Folch. 2025. Foreign aid, FDI and the personalization of power in autocracies. *Political Science Research and Methods*. [doi:10.1017/psrm.2025.9](https://doi.org/10.1017/psrm.2025.9). [Replication materials](https://doi.org/10.7910/DVN/MNXYWI)
-</p>
+<div style="margin-bottom: 20px;">
+<p>Rodon, Toni, Bernat Puertas, Avel·lí Flors-Mas, Núria Franco-Guillén and Sergi Morales-Gálvez. 2026. Could you please repeat it? The effect of language, and language variety on trust in multinational settings. <em>Electoral Studies, 99</em>. <button class="abstract-btn" onclick="var d=document.getElementById('abs1');d.style.display=d.style.display==='block'?'none':'block'">Abstract</button> <a class="abstract-btn" href="https://doi.org/10.1016/j.electstud.2025.103030" target="_blank">DOI</a> <a class="abstract-btn" href="https://doi.org/10.34810/data2818" target="_blank">Replication materials</a> <a class="abstract-btn" href="https://osf.io/zk3e4/overview?view_only=3fbb14597c734896a2d53b5142a589a2" target="_blank">PAP</a></p>
+<div id="abs1" class="abstract-content">Does the language or dialect used in political messages affect people's trust? While previous research has considered the question, little is known about how different languages and accents shape trust. Using an experimental matched-guise design in Catalonia, we test how standard Catalan, standard Spanish, and accented versions of both affect listeners' trust in the speaker. We find that people generally trust the standard, non-accented version more, especially when it comes from their in-group. This effect is even stronger among individuals with a strong Catalan or Spanish identity–especially the latter–and among those on the far right.</div>
+</div>
 
-<p align="justify">
-Puertas, Bernat and Toni Rodon, 2024. Does Language Affect Political Trust? An Exploration of Language Attitudes in the Political Field in Multilingual Catalonia. Pre-Analysis Plan. *OSF*. [DOI:10.17605/OSF.IO/JWFY6](https://doi.org/10.17605/OSF.IO/JWFY6)
-</p>
-
+<div style="margin-bottom: 20px;">
+<p>Puertas, Bernat and Abel Escribà-Folch. 2025. Foreign aid, FDI and the personalization of power in autocracies. <em>Political Science Research and Methods</em>. <button class="abstract-btn" onclick="var d=document.getElementById('abs2');d.style.display=d.style.display==='block'?'none':'block'">Abstract</button> <a class="abstract-btn" href="https://doi.org/10.1017/psrm.2025.9" target="_blank">DOI</a> <a class="abstract-btn" href="https://doi.org/10.7910/DVN/MNXYWI" target="_blank">Replication materials</a></p>
+<div id="abs2" class="abstract-content">This article examines the relationship between foreign aid and foreign direct investment (FDI) and the degree of personalism in dictatorships. We contend that aid leads to higher personalism since it is a windfall that accrues to the government and does not require cooperation from elites to obtain it. Contrarily, we posit that FDI is linked to lower levels of personalism because it reshapes elites' incentives and influence as they may acquire new preferences, connections, and exit options, thus constraining dictators. Using data on Official Development Assistance (ODA) and FDI, and a latent index of personalism in autocracies, we find no robust evidence that ODA or FDI are correlated with personalism, but have some effect on some of the index's components.</div>
+</div>
 
 ### Under review
 
-<p align="justify">
-Puertas, Bernat. The onset of civil armed conflicts and personalization of power in dictatorships. 
-</p>
+<div style="margin-bottom: 20px;">
+<p>Puertas, Bernat. The onset of civil armed conflicts and personalization of power in dictatorships. <button class="abstract-btn" onclick="var d=document.getElementById('abs3');d.style.display=d.style.display==='block'?'none':'block'">Abstract</button></p>
+<div id="abs3" class="abstract-content">This article examines the relationship between civil conflict onsets and personalism in dictatorships. It argues that civil conflict onsets are temporary shocks that dictators exploit to consolidate power. Onsets change the incentives and capacities of the elites, who prioritize regime survival. The new wartime context reduces their capacity for coordination and their disposition to stage a coup. This new context opens a window of opportunity for dictators to pursue strategies that are too noticeable for elites in peaceful times and thus personalize. Using three counterfactual estimators for panel data (FEct, IFEct, and MC) on a global sample of autocratic regimes (1946-2010) and a latent index of personalism, I find that the onset of civil conflict is followed by higher levels of personalism. Sample restriction, standard diagnostic tests, and a sensitivity analysis provide mixed rather than consistently supportive evidence, warranting a cautious interpretation of the causal effects.</div>
+</div>
 
-<p align="justify">
-Puertas, Bernat. Personalism and International Conflict: How Dictators Fight to Concentrate Power. 
-</p>
+<div style="margin-bottom: 20px;">
+<p>Puertas, Bernat. Personalism and International Conflict: How Dictators Fight to Concentrate Power. <button class="abstract-btn" onclick="var d=document.getElementById('abs5');d.style.display=d.style.display==='block'?'none':'block'">Abstract</button></p>
+<div id="abs5" class="abstract-content">This article examines the relationship between international conflict onsets and the degree of personalism in dictatorships. It argues that the onset of interstate conflicts opens a strategic window of opportunity for dictators to consolidate their power through the subordination mechanism. It contends that dictators take advantage of the military's obedience to their commands. The first moves reveal information regarding the strength of the autocrat and the military, as well as their loyalty to the leader. Because the military needs to concentrate on the fighting, coordination becomes more difficult and thus, dictators take advantage to pursue personalizing moves. Using a generalized synthetic control model on a global sample of autocratic regimes (1946-2010) and a latent index of personalism, I do not find robust evidence that dictators concentrate power a few months after the onset of international conflicts.</div>
+</div>
 
+### In progress
 
-### In progress 
+<div style="margin-bottom: 20px;">
+<p>Puertas, Bernat. Ballots for the Boss? Semi-Competitive and Non-Competitive Elections and Personalization of Power in Autocracies. <button class="abstract-btn" onclick="var d=document.getElementById('abs4');d.style.display=d.style.display==='block'?'none':'block'">Abstract</button></p>
+<div id="abs4" class="abstract-content">This article examines how the degree of competition permitted in autocratic elections influences intra-regime dynamics and the distribution of power within autocratic ruling groups. It argues that the degree of electoral competition reconfigures intra-elite dynamics in autocracies by reshaping elites' options and incentives. It contends that non-competitive elections coerce elites by limiting their options to exit or defect, thereby allowing dictators to personalize power. Because there is only one choice in the ballot box, the elites have no incentive to defect from the ruling group and cannot directly oppose the leader, as they would be identified as committed plotters. On the other hand, with the introduction of semi-competitive elections, the elites acquire a new threat: defection. Dictators must manage a dual elite threat (coup attempts and the constant risk of defection) that the elites leverage to force credible power-sharing agreements that dictators accept to remain in power and avoid violent overthrow by their closest allies. Using data on autocratic elections from a global sample of autocratic regimes (1946-2010) and a latent index of personalism, I find that semi-competitive elections have null effects on personalism, suggesting a ceiling or limiting effect of these elections on personalization of power. On the contrary, non-competitive elections seem to push dictators toward personalizing power.</div>
+</div>
 
-<p align="justify">
-Puertas, Bernat. Ballots for the Boss: Multiparty Elections and Personalization of Power in Autocratic Regimes.
-</p>
+<div style="margin-bottom: 20px;">
+<p>Puertas, Bernat. Institutional Capture and the Foundations of Autocratic Survival in Backsliding Democracies. <button class="abstract-btn" onclick="var d=document.getElementById('abs6');d.style.display=d.style.display==='block'?'none':'block'">Abstract</button></p>
+<div id="abs6" class="abstract-content">This article examines how the institutional changes and strategies adopted by democratic incumbents that drive democratic backsliding shape autocratic survival after democratic breakdown. It argues that the durability of autocrats depends not only on post-breakdown strategies but also on the extent of control secured over key state institutions before democracy collapses. Preemptive capture of civilian institutions and consolidation of control over the military provide incumbents with a decisive advantage over rival elites. The study analyzes how different patterns of institutional takeover affect both the survival and consolidation of autocratic regimes following breakdown. It emphasizes that autocratic endurance is rooted not only in actions taken after the transition to authoritarianism but also in earlier efforts to undermine democratic constraints.</div>
+</div>
 
-
-
-
+</div>

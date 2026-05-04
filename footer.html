@@ -1,0 +1,75 @@
+<div style="text-align: center; padding: 20px 0 30px 0; margin-top: 40px; border-top: 1px solid #e0e0e0; font-size: 0.82em; color: #999;">
+  <span class="lang-en">&copy; 2026 Bernat Puertas &mdash; Last updated: May 2026</span>
+  <span class="lang-ca">&copy; 2026 Bernat Puertas &mdash; Última actualització: Maig 2026</span>
+  <span style="margin-left: 18px; color: #bbb;">
+    <span class="lang-en">Built with R and hosted on <a href="https://pages.github.com/" target="_blank" style="color: #bbb !important; text-decoration: underline;">GitHub Pages</a>. The repository to create this website can be found on my <a href="https://github.com/bernatpuertas/bernatpuertas.github.io" target="_blank" style="color: #bbb !important; text-decoration: underline;">GitHub</a></span>
+    <span class="lang-ca">Construït amb R i allotjat a <a href="https://pages.github.com/" target="_blank" style="color: #bbb !important; text-decoration: underline;">GitHub Pages</a>. El repositori per crear aquest lloc web es pot trobar al meu <a href="https://github.com/bernatpuertas/bernatpuertas.github.io" target="_blank" style="color: #bbb !important; text-decoration: underline;">GitHub</a></span>
+  </span>
+</div>
+
+<script>
+// ── Language switcher ─────────────────────────────────────────────────────────
+var navLang = {
+  en: { '#about': 'About', '#thesis': 'My thesis', '#research': 'Research', '#teaching': 'Teaching', '#cv': 'CV' },
+  ca: { '#about': 'Sobre mi', '#thesis': 'La meva tesi', '#research': 'Recerca', '#teaching': 'Docència', '#cv': 'CV' }
+};
+
+function updateNavText(lang) {
+  Object.keys(navLang[lang]).forEach(function(href) {
+    var $a = $('.navbar-nav a[href="' + href + '"]');
+    $a.contents().filter(function() { return this.nodeType === 3; }).remove();
+    $a.append(' ' + navLang[lang][href]);
+  });
+}
+
+function setLang(lang) {
+  if (lang === 'ca') {
+    $('body').addClass('ca');
+    $('#lang-current').text('CAT');
+  } else {
+    $('body').removeClass('ca');
+    $('#lang-current').text('ENG');
+  }
+  localStorage.setItem('lang', lang);
+  updateNavText(lang);
+}
+
+$(document).ready(function() {
+  // Inject language selector before dark mode toggle
+  $('.navbar-right').prepend(
+    '<li class="dropdown">' +
+    '<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" title="Language / Llengua" style="font-size:0.82em;font-weight:700;letter-spacing:0.5px;">' +
+    '<span id="lang-current">ENG</span> <b class="caret"></b>' +
+    '</a>' +
+    '<ul class="dropdown-menu dropdown-menu-right">' +
+    '<li><a href="#" onclick="setLang(\'en\');return false;">ENG &mdash; English</a></li>' +
+    '<li><a href="#" onclick="setLang(\'ca\');return false;">CAT &mdash; Català</a></li>' +
+    '</ul>' +
+    '</li>'
+  );
+
+  // Inject dark mode toggle
+  $('.navbar-right').append(
+    '<li><a href="#" id="dark-toggle" title="Toggle dark mode" style="font-size:1.15em;">' +
+    '<i class="fa fa-moon"></i></a></li>'
+  );
+
+  // Restore dark mode preference
+  if (localStorage.getItem('darkMode') === '1') {
+    $('body').addClass('dark-mode');
+    $('#dark-toggle i').attr('class', 'fa fa-sun');
+  }
+
+  $(document).on('click', '#dark-toggle', function(e) {
+    e.preventDefault();
+    $('body').toggleClass('dark-mode');
+    var dark = $('body').hasClass('dark-mode');
+    localStorage.setItem('darkMode', dark ? '1' : '0');
+    $('#dark-toggle i').attr('class', dark ? 'fa fa-sun' : 'fa fa-moon');
+  });
+
+  // Restore language preference
+  var savedLang = localStorage.getItem('lang') || 'en';
+  setLang(savedLang);
+});
+</script>

@@ -1,0 +1,54 @@
+---
+title: ""
+output:
+  html_document:
+    includes:
+
+
+---
+
+<div class="page-section" id="teaching">
+
+## Teaching
+
+<div style="margin-bottom: 25px;">
+<p style="margin-bottom: 4px;"><strong>TA &mdash; Comparative Politics and Democratization</strong> <span style="color: #888; font-size: 0.9em;">Sep 2022 &ndash; present</span></p>
+<p style="margin-top: 0;">Teaching assistant responsible for the seminars of the course "Comparative Politics and Democratization". MA in International Relations (<a href="https://www.ibei.org/ca">Institut Barcelona d'Estudis Internacionals &ndash; IBEI</a>).</p>
+</div>
+
+<div style="margin-bottom: 25px;">
+<p style="margin-bottom: 4px;"><strong>TA &mdash; Public Policy I</strong> <span style="color: #888; font-size: 0.9em;">Apr 2025 &ndash; Jun 2025</span></p>
+<p style="margin-top: 0;">Teaching assistant responsible for the seminars of the course "Polítiques Públiques I" (Public Policy I). BA in Political and Administrative Sciences (<a href="https://www.upf.edu/web/politiques">Universitat Pompeu Fabra</a>).</p>
+</div>
+
+<div style="margin-bottom: 25px;">
+<p style="margin-bottom: 4px;"><strong>TA &mdash; Introduction to Political Science</strong> <span style="color: #888; font-size: 0.9em;">Sep 2025 &ndash; Dec 2025</span></p>
+<p style="margin-top: 0;">Teaching assistant responsible for the seminars of the course "Introducció a la Ciència Política" (Introduction to Political Science). BA in Political and Administrative Sciences (<a href="https://www.upf.edu/web/politiques">Universitat Pompeu Fabra</a>).</p>
+</div>
+
+<div style="margin-bottom: 25px;">
+<p style="margin-bottom: 4px;"><strong>TA &mdash; Qualitative Methodology II</strong> <span style="color: #888; font-size: 0.9em;">Sep 2025 &ndash; Dec 2025</span></p>
+<p style="margin-top: 0;">Teaching assistant responsible for the seminars of the course "Metodologia Qualitativa II" (Qualitative Methodology II). BA in Political and Administrative Sciences (<a href="https://www.upf.edu/web/politiques">Universitat Pompeu Fabra</a>).</p>
+</div>
+
+<div style="margin-bottom: 25px;">
+<p style="margin-bottom: 4px;"><strong>Instructor &mdash; Introduction to Quantitative Methodology and RStudio</strong> <span style="color: #888; font-size: 0.9em;">Nov 2025</span></p>
+<p style="margin-top: 0;">Instructor of the course "Introducción a la Metodología Cuantitativa y RStudio" (Introduction to Quantitative Methodology and RStudio). Master in Political and Institutional Communication (<a href="https://www.bsm.upf.edu/ca">Universitat Pompeu Fabra &ndash; Barcelona School of Management</a>).</p>
+</div>
+
+<div style="margin-bottom: 25px;">
+<p style="margin-bottom: 4px;"><strong>Affiliated Teaching Staff &mdash; Research Design in IR</strong> <span style="color: #888; font-size: 0.9em;">Sep 2025 &ndash; present</span></p>
+<p style="margin-top: 0;">Affiliated teaching staff for the course "Diseño de investigación en estudios internacionales" (Research Design in International Studies). BA in International Studies (<a href="https://www.uoc.edu/ca">Universitat Oberta de Catalunya</a>).</p>
+</div>
+
+<div style="margin-bottom: 25px;">
+<p style="margin-bottom: 4px;"><strong>Affiliated Teaching Staff &mdash; Varieties of Democracies and Autocracies</strong> <span style="color: #888; font-size: 0.9em;">Feb 2026 &ndash; present</span></p>
+<p style="margin-top: 0;">Affiliated teaching staff for the course "Varietats de democràcies i autocràcies" (Varieties of democracies and autocracies). MA in Political Analysis and Government (<a href="https://www.uoc.edu/ca">Universitat Oberta de Catalunya</a>).</p>
+</div>
+
+<div style="margin-bottom: 25px;">
+<p style="margin-bottom: 4px;"><strong>Creator and Instructor &mdash; Summer Course</strong> <span style="color: #888; font-size: 0.9em;">Jun 2022 &ndash; present</span></p>
+<p style="margin-top: 0;">Creator and instructor of the course "Com governar en el segle XXI: Estats, Conflicte i Poder" (How to Govern in the 21st Century? States, Conflict, and Power). <a href="https://www.upf.edu/web/campus-junior">Campus Junior (Universitat Pompeu Fabra)</a>.</p>
+</div>
+
+</div>

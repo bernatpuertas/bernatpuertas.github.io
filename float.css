@@ -1,4 +1,240 @@
-hp  {
-float: left;    
- margin: 0 15px 0 0;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+#sections-wrapper {
+  position: relative;
+}
+
+/* Default: hidden, stacked at top of wrapper */
+.page-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 50px 40px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Fallback before JS runs: show first section (also covers standalone pages) */
+.page-section:first-of-type {
+  position: relative;
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 2;
+}
+
+/* Once JS wraps sections, override the first-of-type fallback */
+#sections-wrapper .page-section:first-of-type {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* JS-controlled active section: in normal flow so wrapper has correct height */
+#sections-wrapper .page-section.section-active {
+  position: relative;
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 2;
+}
+
+/* Both cards share the same duration and easing so they hit 50% opacity
+   simultaneously at the midpoint — the definition of a true crossfade */
+#sections-wrapper .page-section.section-entering {
+  z-index: 3;
+  transition: opacity 0.8s ease-in-out;
+}
+
+#sections-wrapper .page-section.section-leaving {
+  transition: opacity 0.8s ease-in-out;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #2c2c2c;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+p {
+  margin-bottom: 1.1em;
+}
+
+a, a:link, a:visited, a:active {
+  color: #3f6e50 !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2b5238 !important;
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  font-size: 13px;
+}
+
+.navbar-nav > li > a {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.navbar-inverse {
+  background-color: #3f6e50 !important;
+  border-color: #3f6e50 !important;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ffffff !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  color: #ffffff !important;
+  border-radius: 4px;
+}
+
+.profile-figure {
+  float: right;
+  width: 150px;
+  margin: 4px 0 20px 30px;
+}
+
+.profile-figure img {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.18);
+}
+
+.profile-figure figcaption {
+  font-size: 0.78em;
+  color: #888;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.content-block {
+  overflow: hidden;
+}
+
+/* Abstract toggle button */
+.abstract-btn {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 0.8em;
+  padding: 2px 10px;
+  margin-left: 8px;
+  border: 1px solid #3f6e50;
+  border-radius: 3px;
+  color: #3f6e50 !important;
+  background: transparent;
+  vertical-align: middle;
+  line-height: 1.6;
+}
+
+.abstract-btn:hover {
+  background-color: #3f6e50;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.abstract-content {
+  display: none;
+  margin-top: 10px;
+  padding: 12px 15px;
+  background: #f8f9fa;
+  border-left: 3px solid #3f6e50;
+  font-size: 0.93em;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Smooth transitions for dark mode */
+body, .navbar-inverse, a, h1, h2, h3, h4 {
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #11201a;
+  color: #c8c8d0;
+}
+
+
+body.dark-mode h1, body.dark-mode h2,
+body.dark-mode h3, body.dark-mode h4 {
+  color: #e8e8f0;
+}
+
+body.dark-mode .navbar-inverse {
+  background-color: #0a1912 !important;
+  border-color: #0a1912 !important;
+}
+
+body.dark-mode a, body.dark-mode a:link,
+body.dark-mode a:visited, body.dark-mode a:active {
+  color: #6aab89 !important;
+}
+
+body.dark-mode a:hover {
+  color: #98ccb0 !important;
+}
+
+body.dark-mode .abstract-content {
+  background: #11201a;
+  border-left-color: #6aab89;
+  color: #b0b8c8;
+}
+
+body.dark-mode .abstract-btn {
+  border-color: #6aab89 !important;
+  color: #6aab89 !important;
+}
+
+body.dark-mode .abstract-btn:hover {
+  background-color: #6aab89 !important;
+  color: #fff !important;
+}
+
+body.dark-mode blockquote {
+  background: #11201a !important;
+  border-left-color: #6aab89 !important;
+  color: #b0b8c8 !important;
+}
+
+body.dark-mode .navbar-inverse .navbar-brand,
+body.dark-mode .navbar-inverse .navbar-nav > li > a {
+  color: #e8e8f0 !important;
+}
+
+body.dark-mode iframe {
+  filter: invert(0.85) hue-rotate(180deg);
+}
+
+/* Language switching */
+span.lang-ca, div.lang-ca { display: none; }
+body.ca span.lang-en { display: none; }
+body.ca div.lang-en { display: none; }
+body.ca span.lang-ca { display: inline; }
+body.ca div.lang-ca { display: block; }
+
+/* Tighten navbar item spacing in Catalan to keep everything on one line */
+body.ca .navbar-nav > li > a {
+  padding-left: 7px;
+  padding-right: 7px;
 }
