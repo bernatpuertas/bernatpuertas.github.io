@@ -2,6 +2,9 @@
 
 #sections-wrapper {
   position: relative;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Default: hidden, stacked at top of wrapper */
@@ -53,7 +56,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.8;
   color: #2c2c2c;
   background-color: #ffffff;
@@ -81,7 +84,7 @@ a:hover {
 
 /* Navbar */
 .navbar {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .navbar-nav > li > a {
@@ -237,4 +240,10 @@ body.ca div.lang-ca { display: block; }
 body.ca .navbar-nav > li > a {
   padding-left: 7px;
   padding-right: 7px;
+}
+
+@media (max-width: 767px) {
+  .page-section {
+    padding: 35px 20px;
+  }
 }
