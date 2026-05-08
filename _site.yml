@@ -45,6 +45,7 @@ output:
     highlight: kate
     css: float.css
     includes:
+      in_header: head.html
       after_body: footer.html
     lib_dir: site_libs
     self_contained: no
