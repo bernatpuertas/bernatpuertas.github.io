@@ -12,6 +12,11 @@ output:
 ### Peer-reviewed publications
 
 <div style="margin-bottom: 20px;">
+<p>Puertas, Bernat. 2026. The onset of civil armed conflicts and personalization of power in dictatorships. <em>Conflict Management and Peace Science</em>. <button class="abstract-btn" onclick="var d=document.getElementById('abs3');d.style.display=d.style.display==='block'?'none':'block'">Abstract</button> <span class="abstract-btn">Accepted at Conflict Management and Peace Science</span></p>
+<div id="abs3" class="abstract-content">This article examines the relationship between civil conflict onsets and personalism in dictatorships. It argues that civil conflict onsets are temporary shocks that alter elites' incentives and capacities, allowing dictators to personalize. The new wartime context reduces their capacity for coordination and their willingness to stage a coup, opening a window of opportunity for dictators to pursue strategies that would be too noticeable to elites in peacetime. Using three counterfactual estimators for panel data (FEct, IFEct, and MC) on a global sample of autocratic regimes (1946-2010) and a latent index of personalism, I find that the onset of civil conflict is followed by higher levels of personalism for the treated leaders, who are relatively long-surviving autocrats in the sample. Sample restriction, standard diagnostic tests, and a sensitivity analysis provide mixed rather than consistently supportive evidence, warranting a cautious interpretation of the causal effects.</div>
+</div>
+
+<div style="margin-bottom: 20px;">
 <p>Rodon, Toni, Bernat Puertas, Avel·lí Flors-Mas, Núria Franco-Guillén and Sergi Morales-Gálvez. 2026. Could you please repeat it? The effect of language, and language variety on trust in multinational settings. <em>Electoral Studies, 99</em>. <button class="abstract-btn" onclick="var d=document.getElementById('abs1');d.style.display=d.style.display==='block'?'none':'block'">Abstract</button> <a class="abstract-btn" href="https://doi.org/10.1016/j.electstud.2025.103030" target="_blank">DOI</a> <a class="abstract-btn" href="https://doi.org/10.34810/data2818" target="_blank">Replication materials</a> <a class="abstract-btn" href="https://osf.io/zk3e4/overview?view_only=3fbb14597c734896a2d53b5142a589a2" target="_blank">PAP</a></p>
 <div id="abs1" class="abstract-content">Does the language or dialect used in political messages affect people's trust? While previous research has considered the question, little is known about how different languages and accents shape trust. Using an experimental matched-guise design in Catalonia, we test how standard Catalan, standard Spanish, and accented versions of both affect listeners' trust in the speaker. We find that people generally trust the standard, non-accented version more, especially when it comes from their in-group. This effect is even stronger among individuals with a strong Catalan or Spanish identity–especially the latter–and among those on the far right.</div>
 </div>
@@ -22,11 +27,6 @@ output:
 </div>
 
 ### Under review
-
-<div style="margin-bottom: 20px;">
-<p>Puertas, Bernat. The onset of civil armed conflicts and personalization of power in dictatorships. <button class="abstract-btn" onclick="var d=document.getElementById('abs3');d.style.display=d.style.display==='block'?'none':'block'">Abstract</button></p>
-<div id="abs3" class="abstract-content">This article examines the relationship between civil conflict onsets and personalism in dictatorships. It argues that civil conflict onsets are temporary shocks that dictators exploit to consolidate power. Onsets change the incentives and capacities of the elites, who prioritize regime survival. The new wartime context reduces their capacity for coordination and their disposition to stage a coup. This new context opens a window of opportunity for dictators to pursue strategies that are too noticeable for elites in peaceful times and thus personalize. Using three counterfactual estimators for panel data (FEct, IFEct, and MC) on a global sample of autocratic regimes (1946-2010) and a latent index of personalism, I find that the onset of civil conflict is followed by higher levels of personalism. Sample restriction, standard diagnostic tests, and a sensitivity analysis provide mixed rather than consistently supportive evidence, warranting a cautious interpretation of the causal effects.</div>
-</div>
 
 <div style="margin-bottom: 20px;">
 <p>Puertas, Bernat. Personalism and International Conflict: How Dictators Fight to Concentrate Power. <button class="abstract-btn" onclick="var d=document.getElementById('abs5');d.style.display=d.style.display==='block'?'none':'block'">Abstract</button></p>
