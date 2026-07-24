@@ -9,10 +9,10 @@ output:
 
 <div class="page-section" id="cv">
 
-<p>Here you can find an updated PDF version of <a href="assets/CV_BERNAT PUERTAS.pdf">my CV.</a></p>
+<p>Here you can find an updated PDF version of <a href="assets/CV_BERNAT%20PUERTAS.pdf">my CV.</a></p>
 
-<iframe src="assets/CV_BERNAT PUERTAS.pdf" width="80%" height="650px" style="border: 1px solid #e0e0e0; border-radius: 4px; margin-top: 15px; display: block; margin-left: auto; margin-right: auto;">
-  <p>Your browser does not support embedded PDFs. <a href="assets/CV_BERNAT PUERTAS.pdf">Download the CV here.</a></p>
+<iframe src="assets/CV_BERNAT%20PUERTAS.pdf" width="80%" height="650px" style="border: 1px solid #e0e0e0; border-radius: 4px; margin-top: 15px; display: block; margin-left: auto; margin-right: auto;">
+  <p>Your browser does not support embedded PDFs. <a href="assets/CV_BERNAT%20PUERTAS.pdf">Download the CV here.</a></p>
 </iframe>
 
 </div>
