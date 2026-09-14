@@ -15,7 +15,6 @@ output:
 <div style="overflow: hidden;">
 <div style="float: right; width: 300px; margin: 4px 0 20px 30px; text-align: center;">
 <img src="assets/images/profilepicture.jpeg" style="width: 100%; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,0.18);" alt="Bernat Puertas">
-<p style="font-size: 0.78em; color: #888; margin-top: 6px;">&copy; <a href="https://www.instagram.com/cecilia__coca/" style="color: #888 !important;">Cecília Coca</a></p>
 </div>
 
 <div class="lang-en">

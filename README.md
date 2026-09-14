@@ -13,7 +13,7 @@ Personal academic website of **Bernat Puertas**, PhD candidate in Political and 
 ├── CNAME                             # Custom domain: bernatpuertas.cat
 ├── assets/
 │   ├── images/
-│   │   └── profilepicture.jpeg       # Profile photo (© Cecília Coca)
+│   │   └── profilepicture.jpeg       # Profile photo
 │   └── CV_BERNAT PUERTAS.pdf         # Full CV document
 └── docs/                             # Auto-generated output served by GitHub Pages
     └── CNAME                         # Custom domain (must be present in docs/)
